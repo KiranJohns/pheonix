@@ -9,7 +9,7 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
     
   ],
-  darkMode: "class",
+  // darkMode: "class",
   theme: {
     container: {
       center: true,
