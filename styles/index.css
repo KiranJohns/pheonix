@@ -35,3 +35,7 @@
 .checking{
   display: none;
 }
+
+html {
+  color-scheme: light !important;
+}
