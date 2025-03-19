@@ -64,7 +64,7 @@ const NewCarousel = () => {
                  Where Creativity Meets Precision Printing
               </motion.h1>
               <motion.p 
-                className="text-xl opacity-90 mb-8 max-w-3xl mx-auto"
+                className="text-xl opacity-90 mb-8 max-w-3xl mx-auto hidden sm:block"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.4 }}
@@ -77,18 +77,28 @@ const NewCarousel = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.5 }}
               >
-             
+               <Button 
+                               className="bg-primary hover:bg-primary/80 text-white px-8 py-6 rounded-full text-lg"
+                             >
+                                &nbsp;Call Now&nbsp; 
+                             </Button>
+                             <Button 
+                               variant="outline" 
+                               className="bg-emerald-800 backdrop-blur-md hover:bg-emerald-600/80 text-white border-white/20 px-8 py-6 rounded-full text-lg"
+                             >
+                              WhatsApp
+                             </Button>
               </motion.div>
             </motion.div>
   
             <motion.div 
-              className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce"
+              className="absolute bottom-10  -translate-x-1/2 animate-bounce"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 1.5, duration: 1 }}
             >
               <button 
-                className="flex items-center justify-center w-12 h-12 rounded-full bg-white/10 backdrop-blur-md border border-white/20"
+                className="hidden sm:flex items-center justify-center w-12 h-12 rounded-full bg-white/10 backdrop-blur-md border border-white/20"
                 onClick={() => window.scrollTo({
                   top: window.innerHeight,
                   behavior: 'smooth'
