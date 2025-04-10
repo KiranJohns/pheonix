@@ -12,20 +12,32 @@ import { Button } from '@/components/Button/Button';
 const carouselItems: CarouselItem[] = [
   {
     id: 1,
-    image: 'https://images.unsplash.com/photo-1539485630551-061fb583fa41?auto=format&fit=crop&w=1920&h=1080&q=80',
-    title: 'Innovative Technology Solutions',
-    description: 'Discover how our technology can transform your digital experience',
-  },
-  {
-    id: 2,
-    image: 'https://images.unsplash.com/photo-1465566829994-b8da8cae5909?auto=format&fit=crop&w=1920&h=1080&q=80',
+    image: '/images/hero/two.webp',
     title: 'Precision Engineered',
     description: 'Every detail matters in the pursuit of excellence',
   },
   {
-    id: 3,
-    image: 'https://images.unsplash.com/photo-1522635442916-3acd8dcad9ce?auto=format&fit=crop&w=1920&h=1080&q=80',
+    id: 2,
+    image: '/images/hero/four.png',
     title: 'Seamless Integration',
+    description: 'Connect and expand your capabilities with our platform',
+  },
+  {
+    id: 3,
+    image: '/images/hero/one.jpeg',
+    title: 'Innovative Technology Solutions',
+    description: 'Discover how our technology can transform your digital experience',
+  },
+  {
+    id: 4,
+    image: '/images/hero/seven.webp',
+    title: 'Seamless Integration',
+    description: 'Connect and expand your capabilities with our platform',
+  },
+  {
+    id:5,
+    image: '/images/hero/eight.jpg',
+    title: 'Led Sign Boards',
     description: 'Connect and expand your capabilities with our platform',
   },
 ];

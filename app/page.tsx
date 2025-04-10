@@ -16,7 +16,7 @@ import NewCarousel from "@/components/Carousal/NewCarousal";
 
 export const metadata: Metadata = {
   title: "Phoenix Arts",
-  description: "This is Home for Startup Nextjs Template",
+  description: "Top printing shop in trivandrum",
   // other metadata
 };
 
